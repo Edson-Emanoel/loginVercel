@@ -1,0 +1,56 @@
+:root {
+      --text: #FFF;
+      --bg-layout: #1a1a1a;
+
+      --bg-card: #0e0e0e;
+      --border-card: #282828;
+
+      --bg-input: #1c1c1c;
+      --border-input: #444444;
+
+      --btn: #3f21db;
+      --btn-hover: #391ebe;
+
+      --link: #646cff;
+      --link-hover: #535bf2;
+}
+
+/* [data-theme="dark"]{
+      --text: #FFF;
+      --bg-layout: #1a1a1a;
+
+      --bg-card: #0e0e0e;
+      --border-card: #282828;
+
+      --bg-input: #1c1c1c;
+      --border-input: #444444;
+
+      --btn: #3f21db;
+      --btn-text: #FFF;
+      --btn-hover: #391ebe;
+
+      --link: #646cff;
+      --link-hover: #535bf2;
+} */
+
+/* [data-theme="light"]{
+      --text: #000;
+      --bg-layout: red;
+
+      --bg-card: #aeaeae;
+      --border-card: #808080;
+
+      --bg-input: #dfdfdf;
+      --border-input: #c0c0c0;
+
+      --btn: #3f21db;
+      --btn-text: #FFF;
+      --btn-hover: #391ebe;
+
+      --link: #b03427;
+      --link-hover: #971c14;
+} */
+
+input, select {
+      color: var(--text);
+}

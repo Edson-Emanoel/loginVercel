@@ -1,0 +1,103 @@
+@import url("../global.css");
+
+*{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+}
+
+.div-esqueceu-form {
+      width: 100vw;
+      height: 100vh;
+
+      gap: 20px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+}
+
+.textos {
+      text-align: center;
+}
+
+.form-esqueceu {
+      width: 15%;
+      height: 15%;
+
+      gap: 5px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      justify-content: center;
+
+      border-radius: 8px;
+
+      border: 1px solid var(--border-card);
+      background-color: var(--bg-card);
+}
+
+.div-input {
+      width: 100%;
+
+      gap: 2px;
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+}
+
+.div-input label {
+      margin-right: 72%;
+}
+
+.div-input label.pais-label{
+      margin-right: 76%;
+}
+
+.div-input input, .div-input select {
+      outline: 0;
+
+      width: 85%;
+      height: 30px;
+
+      padding: 0 5px 0 5px;
+
+      border-radius: 4px;
+
+      border: 1px solid var(--border-input);
+      background-color: var(--bg-input);
+}
+
+.esqueceu {
+      margin-left: 52%;
+      background-color: transparent;
+      outline: none;
+      border: none;
+
+      color: var(--link);
+}
+.esqueceu:hover {
+      color: var(--link-hover);
+}
+
+.btn-entrar { 
+      border: 0;
+      outline: 0;
+      margin-top: 20px;
+      border-radius: 4px;
+
+      font-weight: bold;
+      font-size: 14px;
+
+      width: 85%;
+      height: 30px;
+
+      color: var(--btn-text);
+      background-color: var(--btn);
+
+      transition: .2s;
+}
+.btn-entrar:hover {
+      background-color: var(--btn-hover);
+      cursor: pointer;
+}
