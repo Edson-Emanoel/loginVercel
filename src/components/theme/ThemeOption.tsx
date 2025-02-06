@@ -9,8 +9,8 @@ export const ThemeOption: React.FC<ThemeOptionProps> = ({ theme }) => {
       const body = document.querySelector('body');
 
       if (body) {
-            body.setAttribute('data-theme', theme);
-            localStorage.setItem('theme', theme);
+        body.setAttribute('data-theme', theme);
+        localStorage.setItem('theme', theme);
       }
     };
 

@@ -1,12 +1,24 @@
 import './App.css'
+import { ThemeOption } from './components/theme/ThemeOption'
 import kLogo from "/logo.svg"
 
 function App() {
 
   const selectedTheme = localStorage.getItem("theme")
 
+  if (selectedTheme){
+    document
+      .querySelector("body")
+      ?.setAttribute("data-theme", selectedTheme)
+  }
+
   return (
-    <div className='div-login-form'>      
+    <div className='div-login-form'>
+      <div className="theme-options">
+        <ThemeOption theme='dark' />
+        <ThemeOption theme='light' />
+      </div>
+      
       <img src={kLogo} alt="" />
 
       <div className="textos">

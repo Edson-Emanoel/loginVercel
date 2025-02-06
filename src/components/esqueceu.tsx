@@ -1,9 +1,15 @@
 import './esqueceu.css'
+import { ThemeOption } from './theme/ThemeOption'
 import kLogo from "/logo.svg"
 
 export default function Esqueceu() {
   return (
       <div className='div-esqueceu-form'>
+            <div className="theme-options">
+                  <ThemeOption theme='dark' />
+                  <ThemeOption theme='light' />
+            </div>
+
             <img src={kLogo} alt="" />
 
             <div className="textos">

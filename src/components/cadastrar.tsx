@@ -1,9 +1,15 @@
 import './cadastro.css'
+import { ThemeOption } from './theme/ThemeOption'
 import kLogo from "/logo.svg"
 
 export default function Cadastrar() {
   return (
       <div className='cadastro-form'>
+            <div className="theme-options">
+                  <ThemeOption theme='dark' />
+                  <ThemeOption theme='light' />
+            </div>
+
             <img src={kLogo} alt="" />
 
             <div className="textos">
